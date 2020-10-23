@@ -1,10 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
+
 
 #include <iostream>
 #include <regex>
 #include <string>
 #include <vector>
+//#include <functions.cpp>
 
 using namespace std;
 
@@ -37,10 +39,8 @@ public:
 
     bool pair_brackets(string input);
 
-    void test_cases();
-    void test_cases2();
     void loop();
 
 };
 
-#endif // MAIN_H
+#endif // CALCULATOR_H
